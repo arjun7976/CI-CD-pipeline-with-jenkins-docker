@@ -4,7 +4,7 @@ pipline {
     stages {
         stages('Clone Code'){
             stages {
-                git branch: 'main', url:'https://github.com/your-username/my-flask-app.git'
+                git branch: 'main', url:'https://github.com/arjun7976/CI-CD-pipeline-with-jenkins-docker.git'
             }
         }
         stages('Build Docker Image') {
